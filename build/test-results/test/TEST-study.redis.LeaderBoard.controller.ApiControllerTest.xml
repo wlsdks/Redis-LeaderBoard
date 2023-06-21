@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="study.redis.LeaderBoard.controller.ApiControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-21T00:03:23" hostname="choejin-an-ui-MacBookPro.local" time="0.529">
+  <properties/>
+  <testcase name="getRanks로 랭킹을 확인한다." classname="study.redis.LeaderBoard.controller.ApiControllerTest" time="0.529"/>
+  <system-out><![CDATA[09:03:22.446 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [study.redis.LeaderBoard.controller.ApiControllerTest]: ApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:03:22.487 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration study.redis.LeaderBoard.LeaderBoardApplication for test class study.redis.LeaderBoard.controller.ApiControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-21T09:03:22.643+09:00  INFO 88194 --- [    Test worker] s.r.L.controller.ApiControllerTest       : Starting ApiControllerTest using Java 17.0.7 with PID 88194 (started by jinan in /Users/jinan/study/Spring/Redis-LeaderBoard)
+2023-06-21T09:03:22.644+09:00  INFO 88194 --- [    Test worker] s.r.L.controller.ApiControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T09:03:22.850+09:00  INFO 88194 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-21T09:03:22.851+09:00  INFO 88194 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-21T09:03:22.864+09:00  INFO 88194 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-06-21T09:03:23.286+09:00  INFO 88194 --- [    Test worker] s.r.L.controller.ApiControllerTest       : Started ApiControllerTest in 0.751 seconds (process running for 1.166)
+Rank(362009) - Took 1 ms
+Rank - Took 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
